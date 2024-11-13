@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-attachment: rgb(244, 196, 204);
+    background-color: rgb(247, 215, 220);
   }
   
   .gallery {
@@ -15,7 +15,7 @@ body {
   }
   
   .thumbnails {
-    display: flex;
+    display:flex;
     justify-content: center;
     gap: 10px;
     margin-bottom: 20px;
@@ -25,7 +25,7 @@ body {
     width: 50px;
     height: auto;
     cursor: pointer;
-    transition: transform 0.3s;
+    transition: transform 0.5s;
   }
   
   .thumbnails img:hover {
